@@ -1,0 +1,105 @@
+body{
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.container_calculator{
+    width: 340px;
+    height: 500px;
+}
+
+.styles_container_result{
+    width: 340px;
+    height: 130px;
+    background: #333333;
+    border-start-start-radius: 20px;
+    border-start-end-radius: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_result{
+    width: 300px;
+    height: 70px;
+    background: #4d4d4d;
+    color: #fbfbfb;
+    font-size: 60px;
+    margin: 0px 30px;
+    border: solid #686868 4px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: end;
+    align-items: center;   
+}
+
+.styles_container_buttons{
+    background: #1a1a1a;
+    height: 380px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-end-start-radius: 20px;
+    border-end-end-radius: 20px;
+}
+
+.container_buttons{
+    padding: 30px;
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: repeat(4, 1fr); 
+    grid-template-rows: repeat(5, 1fr);
+}
+
+.container_buttons .button_same{
+    grid-row: span 2;
+}
+
+.container_buttons .button_Maiky{    
+   grid-column: span 2;
+}
+
+
+.styles_buttons{ 
+    width: 50px;
+    height: 50px;
+    background: #636363;
+    color: #fbfbfb;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+/*colores botones diferentes*/
+
+.button_ac{ 
+    background:#fb4743;
+    color:#fff6e1;
+}
+
+.button_same{
+    background: #f8931f;
+    color: #fff6e1;
+    height: auto;
+}
+
+.buttonesster{
+    height: 50px;
+    background: #636363;
+    color: #fbfbfb;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+    border-radius: 10px;
+    cursor: pointer;
+}
